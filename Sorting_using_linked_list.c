@@ -65,7 +65,7 @@ main()
     int n;
     printf("Enter total numbers: ");
     scanf("%d",&n);
-    fp=fopen("sample.txt","r");             // OPENING THE FILE "sort.txt" TO READ THE DATA FROM IT
+    fp=fopen("sort.txt","r");             // OPENING THE FILE "sort.txt" TO READ THE DATA FROM IT
     insert(fp,n);
     sort();
     display();
